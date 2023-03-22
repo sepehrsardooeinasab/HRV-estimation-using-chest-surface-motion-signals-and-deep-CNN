@@ -231,6 +231,7 @@ def augmentation_2min_shift_XSec(trials_addresses, desired_address, range_sensor
 
 if __name__ =='__main__':
     BASE_PATH = './'
+    
     all_trials_address = [BASE_PATH + 'Data/Article/Free Breathing/Free_T{}.mat'.format(i) for i in range(1, 52)]
     assert len(all_trials_address)==51
 
