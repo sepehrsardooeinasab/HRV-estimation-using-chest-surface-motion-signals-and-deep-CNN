@@ -1,1 +1,1 @@
-# HRV-estimation-using-chest-surface-motion-and-deep-neural-networks
+# Estimation of Heart Rate Variability from Chest Motion Signals Using Deep Convolutional Neural Networks

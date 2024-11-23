@@ -13,7 +13,6 @@ import nolds
 import glob
 import os
 
-
 def calculate_nni_ms(signal, sampling_rate=100):
     rpeaks_index = ecg(signal=signal, sampling_rate=sampling_rate, show=False)[2]
     rpeaks_ms = rpeaks_index/sampling_rate * 1000.0
